@@ -7,7 +7,7 @@ const ContactSection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     alert("Thank you for your message! We'll get back to you soon.");
     setForm({ name: "", email: "", message: "" });
@@ -18,7 +18,6 @@ const ContactSection = () => {
       <div ref={ref} className={`max-w-6xl mx-auto transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
         <SectionHeading subtitle="Get in Touch" title="Contact Us" description="Let's build your next collection together." />
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Info */}
           <div className="space-y-8">
             <div className="flex items-start gap-4">
               <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
@@ -43,7 +42,6 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <input

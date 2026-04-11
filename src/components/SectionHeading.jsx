@@ -1,11 +1,4 @@
-interface SectionHeadingProps {
-  subtitle?: string;
-  title: string;
-  description?: string;
-  light?: boolean;
-}
-
-const SectionHeading = ({ subtitle, title, description, light }: SectionHeadingProps) => (
+const SectionHeading = ({ subtitle, title, description, light }) => (
   <div className="text-center mb-16 max-w-3xl mx-auto">
     {subtitle && (
       <span className="gold-text text-sm font-body uppercase tracking-[0.3em] font-semibold mb-4 block">

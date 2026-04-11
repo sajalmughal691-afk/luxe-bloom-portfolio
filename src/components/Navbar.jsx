@@ -30,7 +30,6 @@ const Navbar = () => {
           DOWNTOWN
         </a>
 
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -43,7 +42,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-foreground"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -57,7 +55,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileOpen && (
         <div className="md:hidden bg-background/98 backdrop-blur-md border-t border-border animate-fade-in">
           <div className="flex flex-col items-center py-8 gap-6">

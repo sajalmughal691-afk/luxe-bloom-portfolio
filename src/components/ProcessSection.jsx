@@ -26,9 +26,6 @@ const ProcessSection = () => {
                 </div>
                 <h3 className="font-heading text-sm font-semibold text-foreground mb-2">{s.title}</h3>
                 <p className="text-muted-foreground font-body text-xs leading-relaxed">{s.desc}</p>
-                {i < steps.length - 1 && (
-                  <div className="hidden lg:block absolute right-0 top-8 w-full h-[1px] bg-primary/20" />
-                )}
               </div>
             ))}
           </div>
