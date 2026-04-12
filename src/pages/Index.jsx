@@ -12,7 +12,7 @@ import QualitySection from "@/components/QualitySection";
 import CollaborationSection from "@/components/CollaborationSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
+
 
 const Index = () => (
   <div className="min-h-screen bg-background">
@@ -30,7 +30,6 @@ const Index = () => (
     <CollaborationSection />
     <ContactSection />
     <Footer />
-    <WhatsAppButton />
   </div>
 );
 
