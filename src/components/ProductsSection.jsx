@@ -1,15 +1,16 @@
 import SectionHeading from "./SectionHeading";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import productShorts1 from "@/assets/product-shorts-1.jpg";
+import productHoodies from "@/assets/product-hoodies.jpg";
 import productShorts2 from "@/assets/product-shorts-2.jpg";
 import productPants from "@/assets/product-pants.jpg";
+import productCaps from "@/assets/product-caps.jpg";
 
 const categories = [
-  { img: productShorts1, title: "Designer Shorts" },
+  { img: productHoodies, title: "Hoodie Spot" },
   { img: productShorts2, title: "Athletic Shorts" },
   { img: productPants, title: "Track Pants" },
-  { img: productShorts1, title: "Casual Wear" },
-  { img: productPants, title: "Streetwear" },
+  { img: productHoodies, title: "Casual Wear" },
+  { img: productCaps, title: "Cap Corner" },
 ];
 
 const ProductsSection = () => {
