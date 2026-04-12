@@ -30,7 +30,6 @@ const Index = () => (
     <CollaborationSection />
     <ContactSection />
     <Footer />
-    <WhatsAppButton />
   </div>
 );
 
