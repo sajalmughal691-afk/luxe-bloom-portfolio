@@ -1,17 +1,15 @@
 import SectionHeading from "./SectionHeading";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import productTshirts from "@/assets/product-tshirts.jpg";
-import productHoodies from "@/assets/product-hoodies.jpg";
-import productTracksuits from "@/assets/product-tracksuits.jpg";
-import productStreetwear from "@/assets/product-streetwear.jpg";
-import productCasual from "@/assets/product-casual.jpg";
+import productShorts1 from "@/assets/product-shorts-1.jpg";
+import productShorts2 from "@/assets/product-shorts-2.jpg";
+import productPants from "@/assets/product-pants.jpg";
 
 const categories = [
-  { img: productTshirts, title: "T-Shirts" },
-  { img: productHoodies, title: "Hoodies & Sweatshirts" },
-  { img: productTracksuits, title: "Tracksuits" },
-  { img: productStreetwear, title: "Streetwear" },
-  { img: productCasual, title: "Casual & Fashion Wear" },
+  { img: productShorts1, title: "Designer Shorts" },
+  { img: productShorts2, title: "Athletic Shorts" },
+  { img: productPants, title: "Track Pants" },
+  { img: productShorts1, title: "Casual Wear" },
+  { img: productPants, title: "Streetwear" },
 ];
 
 const ProductsSection = () => {
