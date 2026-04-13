@@ -4,12 +4,13 @@ import productHoodies from "@/assets/product-hoodies.jpg";
 import productShorts2 from "@/assets/product-shorts-2.jpg";
 import productPants from "@/assets/product-pants.jpg";
 import productCaps from "@/assets/product-caps.jpg";
+import productCasual from "@/assets/product-casual.jpg";
 
 const categories = [
   { img: productHoodies, title: "Hoodie Spot" },
   { img: productShorts2, title: "Athletic Shorts" },
   { img: productPants, title: "Track Pants" },
-  { img: productHoodies, title: "Casual Wear" },
+  { img: productCasual, title: "Casual Wear" },
   { img: productCaps, title: "Cap Corner" },
 ];
 
