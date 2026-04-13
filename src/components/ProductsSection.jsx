@@ -10,7 +10,7 @@ const categories = [
   { img: productHoodies, title: "Hoodie Spot" },
   { img: productShorts2, title: "Athletic Shorts" },
   { img: productPants, title: "Track Pants" },
-  { img: productHoodies, title: "Casual Wear" },
+  { img: productCasual, title: "Casual Wear" },
   { img: productCaps, title: "Cap Corner" },
 ];
 
