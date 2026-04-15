@@ -1,5 +1,6 @@
 import SectionHeading from "./SectionHeading";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import logoDT from "@/assets/logo-dt.png";
 import productHoodies from "@/assets/product-hoodies.jpg";
 import productShorts2 from "@/assets/product-shorts-2.jpg";
 import productPants from "@/assets/product-pants.jpg";
@@ -21,6 +22,12 @@ const ProductsSection = () => {
     <section id="products" className="section-padding bg-background">
       <div ref={ref} className={`max-w-6xl mx-auto transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
         <SectionHeading subtitle="Our Collection" title="Product Categories" description="We manufacture a wide range of premium apparel." />
+        <div className="flex items-center justify-center gap-4 mb-8">
+          <img src={logoDT} alt="Downtown Manufacture Logo" className="w-16 h-16 object-contain" />
+          <div className="px-5 py-2 border border-primary/30 rounded-lg bg-card">
+            <p className="text-primary font-heading text-sm tracking-wide">MOQ: <span className="font-semibold">25 Pieces</span></p>
+          </div>
+        </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {categories.map((c, i) => (
             <div
