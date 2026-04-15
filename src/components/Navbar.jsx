@@ -27,8 +27,8 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
-        <a href="#hero" className="flex items-center gap-1 font-heading text-xl md:text-2xl font-bold gold-text tracking-wider">
-          <img src={logoDT} alt="Downtown Manufacture Logo" className="w-14 h-14 object-contain" />
+        <a href="#hero" className="flex items-center -gap-1 font-heading text-xl md:text-2xl font-bold gold-text tracking-wider">
+          <img src={logoDT} alt="Downtown Manufacture Logo" className="w-16 h-16 object-contain -mr-1" />
           DOWNTOWN
         </a>
 
