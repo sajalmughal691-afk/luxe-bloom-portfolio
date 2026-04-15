@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import factoryEmbroidery from "@/assets/factory-embroidery.jpg";
 import factorySewing from "@/assets/factory-sewing.jpg";
 import factoryQuality from "@/assets/factory-quality.jpg";
-import logoDT from "@/assets/logo-dt.png";
+
 
 const AboutSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -63,12 +63,11 @@ const AboutSection = () => {
           ))}
         </div>
 
-        <div className="flex flex-col items-center mt-10 gap-4">
-          <img src={logoDT} alt="Downtown Manufacture Logo" className="w-28 h-28 object-contain" />
-          <p className="text-center text-muted-foreground font-body leading-relaxed max-w-2xl mx-auto">
-            With years of industry experience, we have built trusted partnerships with well-known clothing brands and retail stores across the USA, UK, and Canada.
-          </p>
-          <div className="mt-2 px-6 py-3 border border-primary/30 rounded-lg bg-card">
+        <p className="text-center text-muted-foreground font-body leading-relaxed max-w-2xl mx-auto mt-10">
+          With years of industry experience, we have built trusted partnerships with well-known clothing brands and retail stores across the USA, UK, and Canada.
+        </p>
+        <div className="flex justify-center mt-4">
+          <div className="px-6 py-3 border border-primary/30 rounded-lg bg-card">
             <p className="text-primary font-heading text-sm md:text-base tracking-wide">Minimum Order Quantity: <span className="font-semibold">25 Pieces</span></p>
           </div>
         </div>
