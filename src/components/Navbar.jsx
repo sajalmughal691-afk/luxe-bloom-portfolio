@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logoDT from "@/assets/logo-dt.png";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
@@ -26,7 +27,8 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
-        <a href="#hero" className="font-heading text-xl md:text-2xl font-bold gold-text tracking-wider">
+        <a href="#hero" className="flex items-center gap-2 font-heading text-xl md:text-2xl font-bold gold-text tracking-wider">
+          <img src={logoDT} alt="Downtown Manufacture Logo" className="w-10 h-10 object-contain" />
           DOWNTOWN
         </a>
 

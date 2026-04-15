@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import factoryEmbroidery from "@/assets/factory-embroidery.jpg";
 import factorySewing from "@/assets/factory-sewing.jpg";
 import factoryQuality from "@/assets/factory-quality.jpg";
-import logoDT from "@/assets/logo-dt.png";
+
 
 const AboutSection = () => {
   const { ref, isVisible } = useScrollAnimation();
