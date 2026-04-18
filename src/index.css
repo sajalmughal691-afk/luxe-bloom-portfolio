@@ -7,38 +7,38 @@
 @layer base {
   :root {
     --background: 0 0% 5%;
-    --foreground: 0 0% 95%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 0 0% 95%;
+    --card: 150 20% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 150 20% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 43 72% 55%;
-    --primary-foreground: 0 0% 5%;
+    --primary: 150 60% 35%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 90%;
+    --secondary: 150 15% 12%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 150 10% 15%;
+    --muted-foreground: 150 8% 65%;
 
-    --accent: 43 72% 55%;
-    --accent-foreground: 0 0% 5%;
+    --accent: 150 55% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 43 72% 55%;
+    --border: 150 20% 18%;
+    --input: 150 20% 18%;
+    --ring: 150 60% 35%;
 
     --radius: 0.25rem;
 
-    --gold: 43 72% 55%;
-    --gold-light: 43 60% 70%;
-    --gold-dark: 43 80% 40%;
+    --gold: 150 60% 35%;
+    --gold-light: 150 50% 55%;
+    --gold-dark: 150 70% 22%;
 
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Montserrat', sans-serif;
@@ -66,18 +66,18 @@
 
 @layer components {
   .gold-gradient {
-    background: linear-gradient(135deg, hsl(43 80% 40%), hsl(43 72% 55%), hsl(43 60% 70%));
+    background: linear-gradient(135deg, hsl(150 70% 22%), hsl(150 60% 35%), hsl(150 50% 55%));
   }
 
   .gold-text {
-    background: linear-gradient(135deg, hsl(43 60% 70%), hsl(43 72% 55%), hsl(43 80% 40%));
+    background: linear-gradient(135deg, hsl(150 50% 60%), hsl(150 60% 40%), hsl(0 0% 100%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .gold-border {
-    border-color: hsl(43 72% 55% / 0.3);
+    border-color: hsl(150 60% 35% / 0.3);
   }
 
   .section-padding {
