@@ -66,18 +66,18 @@
 
 @layer components {
   .gold-gradient {
-    background: linear-gradient(135deg, hsl(43 80% 40%), hsl(43 72% 55%), hsl(43 60% 70%));
+    background: linear-gradient(135deg, hsl(150 70% 22%), hsl(150 60% 35%), hsl(150 50% 55%));
   }
 
   .gold-text {
-    background: linear-gradient(135deg, hsl(43 60% 70%), hsl(43 72% 55%), hsl(43 80% 40%));
+    background: linear-gradient(135deg, hsl(150 50% 60%), hsl(150 60% 40%), hsl(0 0% 100%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .gold-border {
-    border-color: hsl(43 72% 55% / 0.3);
+    border-color: hsl(150 60% 35% / 0.3);
   }
 
   .section-padding {
